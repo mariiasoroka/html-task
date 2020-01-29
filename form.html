@@ -7,6 +7,90 @@
     <title>Form Sample</title>
 </head>
 <body>
-    <h1>Інтерактивні тести для художників</h1>
+    <nav>
+        <a href="index.html">Основна</a>
+    </nav>
+    <main>
+    <h1>Анкета</h1>
+    <form action="https://formspree.io/mnqdqbja" method="POST">
+         <label> Ім'я:
+             <input type="text" placeholder="Ім'я" name="Ім'я">
+         </label>
+         <label>Прізвище:
+             <input type="text" placeholder="Прізвище" name="Прізвище">
+         </label>
+         <br>
+         <label>E-mail:
+             <input type="text" placeholder="E-mail" name="E-mail">
+         </label>
+         <br>
+         <label>1.Чи навчались ви в нас на якомусь із курсів? </label>
+          <br>
+         <label>
+         <input type="radio" name="Наш інший курс" value="Так">Так
+         </label>
+          <br>
+         <label>
+         <input type="radio" name="Наш інший курс" value="Ні">Ні
+         </label>
+         <br>
+         <label> Якщо так, то на якому?
+         <input type="Text" placeholder="Наш інший курс" name="">
+         </label> 
+         <br>
+         <label>2. Чи відвідували ви <strong> інші</strong> студії/курси/школи мистецтва раніше?</label>
+          <br>
+         <label>
+         <input type="radio" name="Інший курс" value="Так">Так
+         </label>
+          <br>
+         <label>
+         <input type="radio" name="Інший курс" value="Ні">Ні
+         </label>
+         <br>
+         <label>3. Який курс нашої студії ви б хотіли відвідувати?</label>
+          <br>
+         <label>
+         <input type="radio" name="курс" value="Графіті">Графіті
+         </label>
+          <br>
+         <label>
+         <input type="radio" name="курс" value="Тату стиль">Тату стиль
+         </label>
+          <br>
+         <label>
+         <input type="radio" name="курс" value="Комікс">Комікс
+         </label>
+          <br>
+         <label>
+         <input type="radio" name="курс" value="Фешн">Фешн
+         </label>
+          <br>
+         <label>
+         <input type="radio" name="курс" value="Косплей">Косплей
+         </label>
+          <br>
+         <label>
+         <input type="radio" name="курс" value="Акварель">Акварель
+         </label>
+         <br>
+         <label>4. Ви б хотіли відвідувати денну чи вечірню групу навчання?</label>
+          <br>
+         <label>
+         <input type="radio" name="Форма" value="Денну">Денну
+         </label>
+          <br>
+         <label>
+         <input type="radio" name="Форма" value="Вечірню">Вечірню
+         </label>
+          <br>
+         <label>
+         <input type="radio" name="Форма" name="Немає переваги, будь-яку">Немає переваги, будь-яку
+         </label>          
+            <div class="button">
+            <button type="submit">Надіслати</button>
+            </div>
+        </form>
+    </main>
 </body>
 </html>
